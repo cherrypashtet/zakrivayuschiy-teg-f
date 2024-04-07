@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light"/>
+    <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/favicon.png" />
     <title>Закрывающий тег</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
@@ -18,8 +20,8 @@
   <body class="page">
     <header class="header">
       <div class="header-group">
-        <h1 class="header__title">&lt;/html&gt;</h1>
-        <h2 class="header__subtitle">закрывающий тег</h2>
+        <a href="#" class="header__link">&lt;/html&gt;</a>
+        <h1 class="header__title">закрывающий тег</h1>
       </div>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
@@ -49,7 +51,7 @@
     </header>
     <main>
       <article class="card"> 
-        <h3 class="card-header">Фритрек и нулевой спринт: Подготовка к работе</h3>
+        <h2 class="card-header">Фритрек и нулевой спринт: Подготовка к работе</h2>
         <div class="picture-block">
           <img 
             src="./images/nachalo.jpg"
@@ -68,7 +70,7 @@
             </p>
           </div>
           <div class="card-like-button__block">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="like-icon"
@@ -96,19 +98,20 @@
                 </g>
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card"> 
-        <h3 class="card-header">1 спринт: Я — чистый лист</h3>
+        <h2 class="card-header">1 спринт: Я — чистый лист</h2>
         <div class="picture-block">
           <img 
             src="./images/clean-sheet.jpg"
             alt="Парень стоит в большом темном помещении"
             class="picture sepia"
+            loading="lazy"
           />
           <p class="card-label">fear</p>
         </div>
@@ -123,7 +126,7 @@
             </p>
           </div>
           <div class="card-like-button__block">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="like-icon"
@@ -151,19 +154,20 @@
                 </g>
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card"> 
-        <h3 class="card-header">1 спринт: А если не получится?</h3>
+        <h2 class="card-header">1 спринт: А если не получится?</h2>
         <div class="picture-block">
           <img 
             src="./images/emotions.jpg"
             alt="Девушка сидит на лавочке с ноутбуком в руках"
             class="picture sepia"
+            loading="lazy"
           />
           <p class="card-label">emotions</p>
         </div>
@@ -177,7 +181,7 @@
             </p>
           </div>
           <div class="card-like-button__block">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="like-icon"
@@ -205,19 +209,20 @@
                 </g>
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card"> 
-        <h3 class="card-header">2 спринт: Погоня за идеалом</h3>
+        <h2 class="card-header">2 спринт: Погоня за идеалом</h2>
         <div class="picture-block">
           <img 
             src="./images/chase.jpg"
             alt="Черно-белая фотография велогонки"
             class="picture invert"
+            loading="lazy"
           />
           <p class="card-label">effort</p>
         </div>
@@ -231,7 +236,7 @@
             </p>
           </div>
           <div class="card-like-button__block">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="like-icon"
@@ -259,19 +264,20 @@
                 </g>
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card"> 
-        <h3 class="card-header">2 спринт: О тех, кто рядом</h3>
+        <h2 class="card-header">2 спринт: О тех, кто рядом</h2>
         <div class="picture-block">
           <img 
             src="./images/support.jpg"
             alt="3 человека стоят на горе, встречая закат"
             class="picture grayscale"
+            loading="lazy"
           />
           <p class="card-label">support</p>
         </div>
@@ -287,7 +293,7 @@
             </p>
           </div>
           <div class="card-like-button__block">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="like-icon"
@@ -315,19 +321,20 @@
                 </g>
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card"> 
-        <h3 class="card-header">3 спринт: Обходные стратегии</h3>
+        <h2 class="card-header">3 спринт: Обходные стратегии</h2>
         <div class="picture-block">
           <img 
             src="./images/solutions.jpg"
             alt="Неоновый знак вопроса"
             class="picture saturate"
+            loading="lazy"
           />
           <p class="card-label">solutions</p>
         </div>
@@ -340,7 +347,7 @@
             </p>
           </div>
           <div class="card-like-button__block">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="like-icon"
@@ -368,19 +375,20 @@
                 </g>
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card"> 
-        <h3 class="card-header">3 спринт: Когда опускаются руки</h3>
+        <h2 class="card-header">3 спринт: Когда опускаются руки</h2>
         <div class="picture-block">
           <img 
             src="./images/apathy.jpg"
             alt="Человек стоит напротив больших стеклянных окон"
             class="picture blur"
+            loading="lazy"
           />
           <p class="card-label">apathy</p>
         </div>
@@ -395,7 +403,7 @@
             </p>
           </div>
           <div class="card-like-button__block">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="like-icon"
@@ -423,19 +431,20 @@
                 </g>
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card"> 
-        <h3 class="card-header">«Сейчас я здесь»</h3>
+        <h2 class="card-header">«Сейчас я здесь»</h2>
         <div class="picture-block">
           <img 
             src="./images/result.jpg"
             alt="Кирпичная стена с надписью Live, Work, Create"
             class="picture opacity"
+            loading="lazy"
           />
           <p class="card-label">result</p>
         </div>
@@ -450,7 +459,7 @@
             </p>
           </div>
           <div class="card-like-button__block">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="like-icon"
@@ -478,15 +487,15 @@
                 </g>
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
     </main>
-    <footer class="footer">
-      <button 
+    <button 
+        type="button" 
         class="save-button button" 
         onclick="window['dialog-id'].showModal()"
         aria-controls="dialog-id"
@@ -518,7 +527,7 @@
           </div>
           <form method="dialog">
             <button 
-              type="submit" 
+              type="button" 
               onclick="window['dialog-id'].close()"
               class="button dialog__button"
               aria-controls="dialog-id"
@@ -528,7 +537,6 @@
           </form>
         </div>
       </dialog>
-    </footer>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
