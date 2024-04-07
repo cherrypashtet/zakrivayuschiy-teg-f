@@ -215,7 +215,6 @@
 .button {
   font-family: var(--accent-font);
   background-color: var(--bg-color);
-  border: none;
   font-size: 14px;
   overflow: hidden;
   border: 2px solid var(--main-color);
@@ -486,10 +485,6 @@ dialog:not([open]) {
   filter: opacity(0.8);
 }
 
-.brightness {
-  filter: brightness(150%);
-}
-
 .blur {
   filter: blur(0.3rem);
 }
@@ -499,7 +494,7 @@ dialog:not([open]) {
 }
 
 .saturate {
-  filter: saturate(150%);
+  filter: saturate(150%), brightness(150%);
 }
 
 .invert {
