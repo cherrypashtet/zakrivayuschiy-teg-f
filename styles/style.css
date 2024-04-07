@@ -494,7 +494,7 @@ dialog:not([open]) {
 }
 
 .saturate {
-  filter: saturate(150%), brightness(150%);
+  filter: saturate(150%) brightness(150%);
 }
 
 .invert {
